@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yasem Block Factory</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    color: #fff;
+}
+
+/* NAVBAR */
+header {
+    background: #111;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f5b400;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5b400;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') no-repeat center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    margin: 15px 0;
+    color: #ccc;
+}
+
+.hero button {
+    width: 200px;
+    padding: 12px;
+    background: #f5b400;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #d99a00;
+}
+
+/* SERVICES */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service-boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    flex: 1;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+    color: #f5b400;
+}
+
+/* ABOUT */
+.about {
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.about div {
+    flex: 1;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+/* CTA */
+.cta {
+    background: #f5b400;
+    color: #000;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.cta button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+footer a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f5b400;
+}
+
+.bottom {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .service-boxes,
+    .about {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">YASEM</div>
+    <nav>
+       <a href="home page.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="yasem.html">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Quality Blocks for Strong Buildings</h1>
+    <p>We provide durable and reliable blocks for all construction needs.</p>
+    <button onclick="location.href='yasem.html'">Contact Us</button>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+    <h2>Our Services</h2>
+    <div class="service-boxes">
+        <div class="box">
+            <h3>Block Production</h3>
+            <p>High-quality blocks for all types of construction.</p>
+        </div>
+        <div class="box">
+            <h3>Construction Supply</h3>
+            <p>We supply cement and building materials.</p>
+        </div>
+        <div class="box">
+            <h3>Delivery</h3>
+            <p>Fast and reliable delivery to your site.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <div>
+        <h2>About Yasem</h2>
+        <p>
+            Yasem Block Factory is committed to delivering strong, durable,
+            and affordable building materials. We help bring your construction
+            dreams to life with quality you can trust.
+        </p>
+    </div>
+    <div>
+        <h2>Why Choose Us</h2>
+        <p>
+            ✔ Strong & durable blocks<br>
+            ✔ Affordable pricing<br>
+            ✔ Fast delivery<br>
+            ✔ Trusted by builders
+        </p>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Ready to Build With Us?</h2>
+
+    <a href="https://wa.me/233248619760?text=Hello%20Yasem%20Block%20Factory%2C%20I%20want%20to%20make%20an%20inquiry"
+       target="_blank">
+
+        <button style="background:#25D366; color:#fff; border:none; padding:10px 20px; cursor:pointer;">
+            Message Us on WhatsApp
+        </button>
+
+    </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div>
+        <h4>Yasem</h4>
+        <p>Strong Blocks, Stronger Futures.</p>
+    </div>
+
+    <div>
+        <h4>Quick Links</h4>
+        <a href="home page.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="yasem.html">Contact</a>
+    </div>
+
+    <div>
+        <h4>Contact</h4>
+        <p>
+            <a href="mailto:yasemblockfactory6@gmail.com">📧 Email Us</a>
+        </p>
+        <p>
+            <a href="tel:+233248619760">📞 Call Us</a>
+        </p>
+    </div>
+</footer>
+
+<div class="bottom">
+    © PROSPER AHIAKU. All Rights Reserved.
+</div>
+
+</body>
+</html>

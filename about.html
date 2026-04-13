@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - Yasem</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    color: #fff;
+}
+
+/* NAVBAR */
+header {
+    background: #111;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f5b400;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5b400;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') no-repeat center/cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* ABOUT SECTION */
+.about {
+    padding: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.about div {
+    flex: 1;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+    color: #f5b400;
+}
+
+.about p {
+    color: #ccc;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #111;
+    text-align: center;
+}
+
+.stats h2 {
+    color: #f5b400;
+}
+
+/* TEAM / VALUES */
+.values {
+    padding: 50px;
+    text-align: center;
+}
+
+.value-boxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    flex: 1;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box h3 {
+    color: #f5b400;
+    margin-bottom: 10px;
+}
+
+/* CTA */
+.cta {
+    background: #f5b400;
+    color: #000;
+    padding: 30px;
+    text-align: center;
+}
+
+.cta button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+footer a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f5b400;
+}
+
+.bottom {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    .about,
+    .value-boxes,
+    .stats {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">YASEM</div>
+    <nav>
+        <a href="home page.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="yasem.html">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>About Us</h1>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+    <div>
+        <h2>Who We Are</h2>
+        <p>
+            Yasem Block Factory is a trusted provider of high-quality
+            building materials located in Amasaman. We specialize in
+            producing strong and durable blocks for all types of construction.
+        </p>
+    </div>
+
+    <div>
+        <h2>Our Mission</h2>
+        <p>
+            Our mission is to deliver reliable construction materials
+            that ensure safety, durability, and satisfaction for every customer.
+        </p>
+    </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+    <div>
+        <h2>500+</h2>
+        <p>Projects Supplied</p>
+    </div>
+    <div>
+        <h2>1000+</h2>
+        <p>Happy Customers</p>
+    </div>
+    <div>
+        <h2>5+</h2>
+        <p>Years Experience</p>
+    </div>
+</section>
+
+<!-- VALUES -->
+<section class="values">
+    <h2>Our Core Values</h2>
+    <div class="value-boxes">
+        <div class="box">
+            <h3>Quality</h3>
+            <p>We never compromise on the strength of our blocks.</p>
+        </div>
+        <div class="box">
+            <h3>Trust</h3>
+            <p>We build lasting relationships with our clients.</p>
+        </div>
+        <div class="box">
+            <h3>Reliability</h3>
+            <p>We deliver on time, every time.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Work With Yasem Today</h2>
+    <button onclick="location.href='contact.html'">Contact Us</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div>
+        <h4>Yasem</h4>
+        <p>Strong Blocks, Stronger Futures.</p>
+    </div>
+
+    <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+        <h4>Contact</h4>
+        <p>
+            <a href="mailto:yasemblockfactory6@gmail.com">📧 Email Us</a>
+        </p>
+        <p>
+            <a href="tel:+233248619760">📞 Call Us</a>
+        </p>
+    </div>
+</footer>
+
+<div class="bottom">
+    © PROSPER AHIAKU. All Rights Reserved.
+</div>
+
+</body>
+</html>

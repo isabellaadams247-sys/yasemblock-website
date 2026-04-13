@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services - Yasem Block Factory</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0a0a0a;
+    color: #fff;
+}
+
+/* NAVBAR */
+header {
+    background: #111;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #f5b400;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5b400;
+}
+
+/* HERO */
+.hero {
+    background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') no-repeat center/cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* SERVICES */
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #f5b400;
+    margin-bottom: 10px;
+}
+
+.service-boxes {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.box {
+    flex: 1;
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.box h3 {
+    color: #f5b400;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #ccc;
+}
+
+/* CTA */
+.cta {
+    background: #f5b400;
+    color: #000;
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.cta button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer div {
+    margin-bottom: 20px;
+}
+
+footer a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f5b400;
+}
+
+.bottom {
+    text-align: center;
+    padding: 10px;
+    background: #000;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .service-boxes {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <div class="logo">YASEM</div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Our Services</h1>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+    <h2>What We Offer</h2>
+    <p>High-quality construction services and reliable block production for all your building needs.</p>
+
+    <div class="service-boxes">
+
+        <div class="box">
+            <h3>Block Production</h3>
+            <p>We produce strong and durable concrete blocks for all types of construction projects.</p>
+        </div>
+
+        <div class="box">
+            <h3>Bulk Supply</h3>
+            <p>We supply large quantities of blocks for contractors, companies, and developers.</p>
+        </div>
+
+        <div class="box">
+            <h3>Fast Delivery</h3>
+            <p>We ensure quick and safe delivery of materials to your construction site.</p>
+        </div>
+
+    </div>
+
+    <div class="service-boxes" style="margin-top:20px;">
+
+        <div class="box">
+            <h3>Custom Orders</h3>
+            <p>We produce blocks in custom sizes and specifications based on your project needs.</p>
+        </div>
+
+        <div class="box">
+            <h3>Construction Support</h3>
+            <p>We assist builders with material planning and supply recommendations.</p>
+        </div>
+
+        <div class="box">
+            <h3>Affordable Pricing</h3>
+            <p>We offer competitive prices without compromising on quality.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <h2>Need Our Services?</h2>
+    <button onclick="location.href='contact.html'">Get In Touch</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div>
+        <h4>Yasem</h4>
+        <p>Strong Blocks, Stronger Futures.</p>
+    </div>
+
+    <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="service.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+        <h4>Contact</h4>
+        <a href="mailto:yasemblockfactory6@gmail.com">📧 Email Us</a>
+        <a href="tel:+233248619760">📞 Call Us</a>
+    </div>
+</footer>
+
+<div class="bottom">
+    © PROSPER AHIAKU. All Rights Reserved.
+</div>
+
+</body>
+</html>
